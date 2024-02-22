@@ -7,6 +7,7 @@ It contains;
 - /IDE - all the IDE sample code demonstrated
 - /PMSApi - the fake PMS API used in the demo
 - /PMSClientSample - a simple console app that exercises that API
+- IDE-DeepDive.pdf - a copy of the slides
 - export-Demo*.zip - a solution export containing all the work types, portal definitions, workflows and IDE files used in the sample.
 
 # To run the test API
