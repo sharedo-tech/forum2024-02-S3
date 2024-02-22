@@ -1,0 +1,37 @@
+{
+    "id": "Demo01.PMSWidget",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": true,
+        "title": "Demo01 - PMS Widget",
+        "icon": "fa-cog",
+        "description": "Widget for demo01 to show PMS information",
+        "categories":
+        [
+            "Demo 01"
+        ],
+        "isConfigurable": false,
+        "configurationWidget": null
+    },
+    "scripts":
+    [
+        "/_ideFiles/Demo01/PMSWidget/PMSWidgetAgent.js",
+        "/_ideFiles/Demo01/PMSWidget/PMSWidget.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/PMSWidget/PMSWidget.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/PMSWidget/PMSWidget.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

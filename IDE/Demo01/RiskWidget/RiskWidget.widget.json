@@ -1,0 +1,37 @@
+{
+    "id": "Demo01.RiskWidget",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": true,
+        "title": "Demo01 - Risk Widget",
+        "icon": "fa-cog",
+        "description": "Widget to render demo01 probability x impact as a RAG",
+        "categories":
+        [
+            "Demo 01"
+        ],
+        "isConfigurable": true,
+        "configurationWidget": "Demo01.RiskWidgetDesigner"
+    },
+    "scripts":
+    [
+        "/_ideFiles/Demo01/RiskWidget/RiskWidgetAgent.js",
+        "/_ideFiles/Demo01/RiskWidget/RiskWidget.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/RiskWidget/RiskWidget.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/RiskWidget/RiskWidget.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

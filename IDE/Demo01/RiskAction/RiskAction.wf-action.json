@@ -1,0 +1,32 @@
+{
+    // The system name for the type of node
+    "systemName": "RiskAction",
+
+    // The category to show this in the toolbox
+    "category": "Demo 01",
+
+    // The display info
+    "name": "Risk evaluation",
+    "icon": "fa-cog",
+    "description": "Determines probability given two numerical inputs",
+
+    // The widget used to configure this node type
+    "configWidget": "Demo01.RiskActionDesigner",
+
+    // Any other scripts to include that are used by the factory
+    "factoryIncludes": [],
+
+    // The factory for creating a node of this type
+    "factoryScript": "/_ideFiles/Demo01/RiskAction/RiskAction-factory.js",
+
+    // The template for generating the code for this type
+    "templateScript": "/_ideFiles/Demo01/RiskAction/RiskAction-template.js",
+
+    // Any additional helper scripts to load and run before the main generated script runs
+    "helperScripts":  [],
+
+    // Declare any required variable types your step expects to use - e.g. /Identifier or /Identifier/Ods Entity Identifier
+    "requiredTypes":  [
+        "/Number"
+        ] 
+}

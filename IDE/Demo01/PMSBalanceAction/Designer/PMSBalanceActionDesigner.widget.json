@@ -1,0 +1,27 @@
+{
+    "id":  "Demo01.PMSBalanceActionDesigner", 
+    "priority": 6000, 
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/Demo01/PMSBalanceAction/designer/PMSBalanceActionDesigner.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/PMSBalanceAction/designer/PMSBalanceActionDesigner.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/PMSBalanceAction/designer/PMSBalanceActionDesigner.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

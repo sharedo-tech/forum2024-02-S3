@@ -1,0 +1,23 @@
+
+<div class="Demo01-PMSOnboardingActionDesigner">
+
+    <div data-bind="widgetChrome:{ icon: 'fa-list', title: 'Action configuration' }">
+        <div class="form-group">
+            <label for="name">Action name:</label>
+            <input id="name" type="text" class="form-control" data-bind="textInput:action.name" />
+            <div class="text-danger" data-bind="visible:action.validation.name, text:action.validation.name"></div>
+        </div>
+    </div>
+
+    <div data-bind="widgetChrome:{ icon: 'fa-code', title: 'PMS API Output' }">
+
+        <div class="form-group">
+            <label>Store PMS Reference in:</label>
+            <!-- ko component: { name: "core-wf-variable-selector", params:action.ui.outputVariable } -->
+            <!-- /ko -->
+            <div class="text-danger" data-bind="visible:action.validation.outputVariable, text:action.validation.outputVariable"></div>
+        </div>
+
+    </div>
+
+</div>

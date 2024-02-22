@@ -1,0 +1,30 @@
+{
+    // The system name for the type of node
+    "systemName": "PMSBalanceAction",
+
+    // The category to show this in the toolbox
+    "category": "Demo 01",
+
+    // The display info
+    "name": "Demo 01 - adjust PMS balance ",
+    "icon": "fa-cog",
+    "description": "Adjusts the balance in PMS by a specified amount",
+
+    // The widget used to configure this node type
+    "configWidget": "Demo01.PMSBalanceActionDesigner",
+
+    // Any other scripts to include that are used by the factory
+    "factoryIncludes": [],
+
+    // The factory for creating a node of this type
+    "factoryScript": "/_ideFiles/Demo01/PMSBalanceAction/PMSBalanceAction-factory.js",
+
+    // The template for generating the code for this type
+    "templateScript": "/_ideFiles/Demo01/PMSBalanceAction/PMSBalanceAction-template.js",
+
+    // Any additional helper scripts to load and run before the main generated script runs
+    "helperScripts":  [],
+
+    // Declare any required variable types your step expects to use - e.g. /Identifier or /Identifier/Ods Entity Identifier
+    "requiredTypes":  [ "/Number" ] 
+}

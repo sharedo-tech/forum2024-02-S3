@@ -1,0 +1,33 @@
+{
+    // The system name for the type of node
+    "systemName": "PMSOnboardingAction",
+
+    // The category to show this in the toolbox
+    "category": "Demo 01",
+
+    // The display info
+    "name": "Demo 01 - PMS Onboarding",
+    "icon": "fa-cog",
+    "description": "Onboards a matter to the PMS and returns it's reference",
+
+    // The widget used to configure this node type
+    "configWidget": "Demo01.PMSOnboardingActionDesigner",
+
+    // Any other scripts to include that are used by the factory
+    "factoryIncludes": [],
+
+    // The factory for creating a node of this type
+    "factoryScript": "/_ideFiles/Demo01/PMSOnboardingAction/PMSOnboardingAction-factory.js",
+
+    // The template for generating the code for this type
+    "templateScript": "/_ideFiles/Demo01/PMSOnboardingAction/PMSOnboardingAction-template.js",
+
+    // Any additional helper scripts to load and run before the main generated script runs
+    "helperScripts":  [],
+
+    // Declare any required variable types your step expects to use - e.g. /Identifier or /Identifier/Ods Entity Identifier
+    "requiredTypes":  
+    [
+        "/Identifier/Work Item Identifier"
+    ] 
+}

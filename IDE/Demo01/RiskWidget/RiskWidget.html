@@ -1,0 +1,28 @@
+<div class="Demo01-RiskWidget">
+
+    <div data-bind="css:ui.riskLabelCss, text:ui.riskLabel"></div>
+
+    <table>
+        <colgroup>
+            <col style="width:33.333%"/>
+            <col style="width:33.333%"/>
+            <col style="width:33.333%"/>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Probability</th>
+                <th>Impact</th>
+                <th>Risk</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-bind="text:model.probability"></td>
+                <td data-bind="text:model.impact"></td>
+                <td data-bind="text:model.risk"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="mt-4" data-bind="text:model.todoMessage"></div>
+</div>

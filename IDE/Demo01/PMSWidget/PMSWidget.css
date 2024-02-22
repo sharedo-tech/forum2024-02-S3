@@ -1,0 +1,19 @@
+div.Demo01-PMSWidget div.pms-label
+{
+    text-align: center;
+    color: var(--color-grey);
+    font-size: 0.8rem;
+}
+
+div.Demo01-PMSWidget div.pms-value
+{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+div.Demo01-PMSWidget div.pms-value.emphasis
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+}

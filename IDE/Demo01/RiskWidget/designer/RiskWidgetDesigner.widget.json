@@ -1,0 +1,27 @@
+{
+    "id": "Demo01.RiskWidgetDesigner",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/Demo01/RiskWidget/designer/RiskWidgetDesigner.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/RiskWidget/designer/RiskWidgetDesigner.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/RiskWidget/designer/RiskWidgetDesigner.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

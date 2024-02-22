@@ -1,0 +1,27 @@
+{
+    "id":  "Demo01.PMSOnboardingActionDesigner", 
+    "priority": 6000, 
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/Demo01/PMSOnboardingAction/designer/PMSOnboardingActionDesigner.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/PMSOnboardingAction/designer/PMSOnboardingActionDesigner.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/PMSOnboardingAction/designer/PMSOnboardingActionDesigner.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "Demo01.PMSAuditBlade",
+    "priority": 6000, 
+    "width": 600,
+    "scripts":
+    [
+        "/_ideFiles/Demo01/PMSAuditBlade/PMSAuditBlade.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/Demo01/PMSAuditBlade/PMSAuditBlade.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/Demo01/PMSAuditBlade/PMSAuditBlade.html"
+    ],
+    "components":
+    [
+        "Sharedo.UI.Framework.Components.RibbonBar"
+    ]
+}

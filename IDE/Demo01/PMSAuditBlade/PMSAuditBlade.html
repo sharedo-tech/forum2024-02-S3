@@ -1,0 +1,48 @@
+<div class="modal-header">
+    <div class="flex-row">
+        <div class="column-auto">
+            <span class="fa fa-search header-icon"></span>
+        </div>
+        <div class="column-fit">
+            <h4 class="modal-title">PMS Audit <span data-bind="text:reference"></span></h4>
+            <div class="small">Lists all delta transactions from the PMS</div>
+        </div>
+    </div>
+
+    <!-- ko component: { name: "ribbon", params: { ribbon: blade.ribbon }} -->
+    <!-- /ko -->
+</div>
+
+<div class="Demo01-PMSAuditBlade provider-picker-blade modal-body nano">
+    <div class="nano-content remove-vertical-padding remove-horizontal-padding">
+        
+        <div data-bind="widgetChrome:{ icon:'fa-search', title:'Audit trail' }">
+            
+            <!-- ko ifnot: auditLoaded -->
+            <div>Loading...</div>
+            <!-- /ko -->
+            
+            <!-- ko if: auditLoaded -->
+            <table class="standard-list">
+                <thead>
+                    <tr>
+                        <th>When</th>
+                        <th>Change</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- ko foreach: audit -->
+                    <tr>
+                        <td data-bind="date:timeStamp, format:'DD/MM/YYYY HH:mm:ss'"></td>
+                        <td data-bind="currency:delta, css:{'text-danger':delta < 0, 'text-success':delta >= 0}"></td>
+                        <td data-bind="currency:balance, css:{'text-danger':balance < 0, 'text-success':balance >= 0}"></td>
+                    </tr>
+                    <!-- /ko -->
+                </tbody>
+            </table>
+            <!-- /ko --> 
+        </div>
+
+    </div>
+</div>

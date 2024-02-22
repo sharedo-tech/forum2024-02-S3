@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMSApi", "PMSApi\PMSApi.csproj", "{4140F6B3-8022-427D-A7DA-1F976C97EE7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMSClientSample", "PMSClientSample\PMSClientSample.csproj", "{9288C3E0-AE57-4FEA-B24E-434C4E0E75FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4140F6B3-8022-427D-A7DA-1F976C97EE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4140F6B3-8022-427D-A7DA-1F976C97EE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4140F6B3-8022-427D-A7DA-1F976C97EE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4140F6B3-8022-427D-A7DA-1F976C97EE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9288C3E0-AE57-4FEA-B24E-434C4E0E75FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9288C3E0-AE57-4FEA-B24E-434C4E0E75FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9288C3E0-AE57-4FEA-B24E-434C4E0E75FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9288C3E0-AE57-4FEA-B24E-434C4E0E75FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE9DDAF3-FDC9-4FE6-84F4-8773D4F85464}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+div.Demo01-RiskWidget
+{
+}
+
+div.Demo01-RiskWidget > div.risk-red,
+div.Demo01-RiskWidget > div.risk-amber,
+div.Demo01-RiskWidget > div.risk-green
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #eee;
+    color: #111;
+}
+
+div.Demo01-RiskWidget > div.risk-red
+{
+    background-color: red;
+    color: white;
+}
+
+div.Demo01-RiskWidget > div.risk-amber
+{
+    background-color: orange;
+    color: white;
+}
+
+div.Demo01-RiskWidget > div.risk-green
+{
+    background-color: green;
+    color: white;
+}
+
+div.Demo01-RiskWidget > table
+{
+    table-layout: fixed;
+    width: 100%;
+    font-size: 0.7rem;
+}
+
+div.Demo01-RiskWidget > table th,
+div.Demo01-RiskWidget > table td
+{
+    text-align: center;
+    border: 1px solid var(--color-grey-light);
+}
